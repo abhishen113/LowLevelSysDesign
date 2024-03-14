@@ -65,7 +65,7 @@ public class VendingMachineImpl implements VendingMachine {
     }
 
     @Override
-    public Bucket<Item, List<Coin>> collectedItemAndChange() {
+    public Bucket<Item, List<Coin>> collectItemAndChange() {
 
         Item item = collectItem();
         totalSales = totalSales + currentItem.getPrice();

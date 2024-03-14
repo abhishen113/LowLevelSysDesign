@@ -2,6 +2,8 @@ package VendingMachine;
 
 public enum Item {
 
+    // item is the enum for the products the vending machine has also this enum will product name along with its price
+
 
     COKE("Coke" , 25) , PEPSI("Pepsi" , 35) , SODA("Soda" , 45);
 
