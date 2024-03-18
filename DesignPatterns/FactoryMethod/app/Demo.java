@@ -1,8 +1,12 @@
-package DesignPatterns.FactoryMethod;
+package DesignPatterns.FactoryMethod.app;
+
+import DesignPatterns.FactoryMethod.dialog.Dialog;
+import DesignPatterns.FactoryMethod.dialog.HtmlDialog;
+import DesignPatterns.FactoryMethod.dialog.WindowsDialog;
 
 public class Demo {
 
-    private static  Dialog dialog;
+    private static Dialog dialog;
 
     public static void main(String[] args){
         configure();

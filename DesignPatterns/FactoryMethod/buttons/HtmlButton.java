@@ -1,11 +1,13 @@
-package DesignPatterns.FactoryMethod;
+package DesignPatterns.FactoryMethod.buttons;
 
 
 /*HTML button implementation
 
 Concrete Product*/
 
-public class HtmlButton implements Button{
+import DesignPatterns.FactoryMethod.buttons.Button;
+
+public class HtmlButton implements Button {
     @Override
     public void render() {
         System.out.println("<button> TEST BUTTON </button>");

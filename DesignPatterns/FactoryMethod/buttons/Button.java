@@ -1,4 +1,4 @@
-package DesignPatterns.FactoryMethod;
+package DesignPatterns.FactoryMethod.buttons;
 
 /*
 common interface for all buttons

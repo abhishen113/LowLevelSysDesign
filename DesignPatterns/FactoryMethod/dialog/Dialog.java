@@ -1,9 +1,11 @@
-package DesignPatterns.FactoryMethod;
+package DesignPatterns.FactoryMethod.dialog;
 /*
 Base factory class. Note that "factory" is merely a role for the class.
 it should have some core business logic which needs different products to be
 created.*/
 
+
+import DesignPatterns.FactoryMethod.buttons.Button;
 
 public abstract class Dialog {
 

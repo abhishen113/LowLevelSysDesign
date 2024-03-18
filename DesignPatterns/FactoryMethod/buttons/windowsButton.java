@@ -1,4 +1,6 @@
-package DesignPatterns.FactoryMethod;
+package DesignPatterns.FactoryMethod.buttons;
+
+import DesignPatterns.FactoryMethod.buttons.Button;
 
 import javax.swing.*;
 import java.awt.*;
