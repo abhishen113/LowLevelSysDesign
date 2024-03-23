@@ -47,8 +47,8 @@ public class Manual {
             info += "GPS Navigator : N/A" + "\n";
         }
         return info;
-    }
 
+  }
 
 
 
